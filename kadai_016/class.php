@@ -62,7 +62,9 @@
       
       echo "<br>";
       // メソッドにアクセスして実行する
+      $food->set_price(250);
       $food->show_price();
+      $animal->set_height(60);
       $animal->show_height();
 
     ?>
